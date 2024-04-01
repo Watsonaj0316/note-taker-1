@@ -8,6 +8,18 @@ const db = require('./db/db.json');
 // Allows all notes to have a unique ID
 const { v4: uuidv4 } = require('uuid');
 
+app.use(function(req, res, next) {
+    // Disable caching for all routes
+    res.set('Cache-Control', 'no-store');
+    next();
+  });
+  
+  // Or, disable caching for specific routes
+  app.use('/assets/js', function(req, res, next) {
+    res.set('Cache-Control', 'no-store');
+    next();
+  });
+
 // Allows public folder to be unblocked
 app.use(express.static('public'));
 app.use(express.json());
