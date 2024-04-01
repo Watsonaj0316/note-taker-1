@@ -1,33 +1,28 @@
-/* Reset default margin and padding */
+/* Reset default margin, padding, and box-sizing */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    box-sizing: border-box;
   }
   
-  /* Apply a global font family for better readability */
+  /* Use a global font-family for consistency */
   body {
     font-family: Arial, sans-serif;
   }
   
-  /* Define a consistent background color for the entire page */
+  /* Set a background color for the body */
   body {
     background-color: #f8f9fa;
   }
   
-  /* Style the navbar for better visibility and aesthetics */
+  /* Style the navbar */
   .navbar {
     background-color: #343a40;
     color: #ffffff;
     padding: 10px 20px;
   }
   
-  /* Adjust margins and padding for better spacing */
-  .container {
-    margin-top: 20px;
-  }
-  
-  /* Style the jumbotron for a visually appealing header */
+  /* Style the jumbotron */
   .jumbotron {
     background-color: #ffffff;
     padding: 20px;
@@ -35,7 +30,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  /* Style the note form for a clean and intuitive interface */
+  /* Style the note form */
   .note-form {
     background-color: #ffffff;
     border-radius: 5px;
@@ -80,11 +75,12 @@
     color: #bd2130;
   }
   
-  /* Style the list group for displaying notes */
+  /* Style the list group */
   .list-group {
     margin-top: 20px;
   }
   
+  /* Style the list group item */
   .list-group-item {
     background-color: #ffffff;
     border: none;
