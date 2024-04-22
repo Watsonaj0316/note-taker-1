@@ -40,8 +40,8 @@ Uniqid
 
 
 ## Screenshots
-![Screenshot](public/IMG_7257.jpg)
-![Screenshot](public/IMG_7262.jpg)
+![Screenshot](IMG_7257.jpg)
+![Screenshot](IMG_7262.jpg)
 
 
 ## License
