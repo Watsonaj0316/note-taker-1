@@ -1,17 +1,21 @@
 {
-  "name": "note-taker-18",
+  "name": "note-taker-1",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node server.js"
   },
+  
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
     "express": "^4.19.2",
-    "package-name": "^0.1.0",
     "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
